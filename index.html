@@ -1,287 +1,221 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DERRICK OGOLE</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/styles.css" />
+<html lang="en">
+<head>
 
-    <!-- Google Fonts -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <title>Kromanti Festival</title>
 
-  <body>
-    <header>
-      <!-- Logo -->
+  <link
+  rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+  crossorigin="anonymous"/>
+  <link rel="stylesheet" href="/css/styles.css"/>
 
-      <div>
-        <img class="logo" src="devderrick.png" alt="derrick-ogole-logo" />
-      </div>
+  <!-- Google Fonts -->
 
-      <button class="nav-toggle" aria-label="toggle-navigation">
-        <span class="hamburger"></span>
-      </button>
 
-      <!-- Navigation Bar-->
+</head>
 
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav-item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav-item">
-            <a href="#services" class="nav__link">Services</a>
-          </li>
-          <li class="nav-item"><a href="#about" class="nav__link">About</a></li>
-          <!-- <li class="nav-item"><a href="#work" class="nav__link">Work</a></li> -->
-        </ul>
-      </nav>
-    </header>
+<body>
 
-    <!-- Introduction -->
+  <!-- Navigation Bar -->
 
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Derrick</strong>
-      </h1>
+  <nav class="nav" id="home">
 
-      <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+    <div class="kromanti-name">KROMANTI FESTIVAL</div>
 
-      <img
-        src="profile-picture-face.jpg"
-        alt="a picture of Derrick smiling"
-        class="intro__img"
-      />
-    </section>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
 
-    <!--Services-->
+    <div class="navbar-links">
 
-    <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
+      <ul class="nav-list">
 
-      <div class="services">
-        <div class="service">
-          <h3>Web Design</h3>
-          <p class="web-description">
-            I build beautiful, simple, and responsive websites that follow the
-            core principles of web design - ensuring you engage more customers.
-            I focus on keeping things simple, engaging, and effective.
-          </p>
-        </div>
-        <!-- / service-->
+        <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#festival" class="nav-link">THE FESTIVAL</a></li>
+        <li class="nav-item"><a href="#buy-ticekts" class="nav-link">BUY TICKETS</a></li>
+        <li class="nav-item"><a href="#sponsors" class="nav-link">SPONSORS</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
 
-        <div class="service">
-          <h3>Digital Marketing</h3>
-          <p class="digital-description">
-            I provide digital marketing consulting - focused on how you can
-            optimise your social media content to engage more people through
-            storytelling.
-          </p>
-        </div>
-        <!-- / service-->
-      </div>
-
-      <!-- <a href="#work" class="btn">My Work</a> -->
-    </section>
-
-    <!--About Me-->
-
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">
-        Developer and Digital Marketer based out of London
-      </p>
-
-      <div class="about-me__body">
-        <p>
-          Hi, I'm Derrick Ogole. I am a front-end developer and digital marketer
-          who loves building websites that tell a story and captures people's
-          attention.
-        </p>
-        <p>
-          The merging of good design and a story is essential to developing a
-          website that lives on the web for the world to see.
-        </p>
-        <p>
-          If you need a custom-built website for your business or require a
-          consultation on how to develop your digital marketing capabilities
-          through social media, feel free to contact me.
-        </p>
-        <p>
-          I focus on delivering excellent service and building long-term
-          relationships with clients.
-        </p>
-
-        <!-- Buttons -->
-
-        <a href="mailto:me@derrickogole.com" class="btn">HIRE ME</a>
-        <a
-          href="./docs/derrick-ogole-software-development-cv.docx"
-          download="derrick-ogole-cv.docx"
-          class="btn"
-          >DOWNLOAD CV</a
-        >
-      </div>
-
-      <img src="about-image.jpg" alt="Derrick smiling" class="about-me__img" />
-    </section>
-
-    <!--  My Work
-
-  <section class="my-work" id="work">
-
-      <h2 class="section__title section__title--work">My Portfolio</h2>
-      <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
-      <div class="portfolio">
-
-        -->
-
-    <!--Portfolio Image-->
-    <!--
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-01.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-02.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-03.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-04.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-05.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-06.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-07.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-08.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-09.jpg" alt="" class="portfolio__img">
-          </a>
-
-          <a href="#" class="portfolio_item">
-              <img src="./images/portfolio-10.jpg" alt="" class="portfolio__img">
-          </a>
-
-      </div>
-
-  </section>
-
-  -->
-
-    <!--Footer-->
-
-    <footer class="footer">
-      <a href="mailto:me@derrickogole.com" class="footer__link"
-        >me@derrickogole.com</a
-      >
-
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="http://www.facebook.com/derrickjogole"
-            target="_blank"
-          >
-            <i class="fab fa-facebook"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="http://www.instgram.com/derrickogole"
-            target="_blank"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="http://www.twitter.com/derrickogole"
-            target="_blank"
-          >
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="https://github.com/derrickogole"
-            target="_blank"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="mailto:me@derrickogole.com"
-            target="_blank"
-          >
-            <i class="fas fa-envelope"></i>
-          </a>
-        </li>
       </ul>
 
-      <!-- Copyright -->
-
-      <div class="copyright">
-        <div class="copyright-text">
-          <p>Copyright &copy 2021 Derrick Ogole. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
-
-    <!--Attached-Social-Bar-->
-
-    <div class="a-social-b">
-      <a href="https://www.facebook.com/derrickjogole" target="_blank"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-      <a href="https://www.instagram.com/derrickogole" target="_blank"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      <a href="https://www.twitter.com/derrickogole" target="_blank"
-        ><i class="fab fa-twitter"></i
-      ></a>
-      <a href="https://github.com/derrickogole" target="_blank"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a href="mailto:me@derrickogole.com" target="_blank"
-        ><i class="fas fa-envelope"></i
-      ></a>
     </div>
 
-    <script src="/index.js"></script>
-  </body>
+  </nav>
+
+  <!-- Logo Section -->
+
+  <div class="logo-section">
+
+    <h1 class="kromanti-logo">LOGO</h1>
+  
+  </div>
+
+  <!-- Main Section -->
+
+  <div class="main-section">
+
+    <h1 class="main-image">MAIN IMAGE</h1>
+
+  </div>
+
+  <!-- Festival Section -->
+
+  <div class="festival-section">
+
+    <h1 class="festival-header">THE FESTIVAL</h1>
+
+    <div class="festival-section-left-right">
+
+      <div class="festival-section-left">
+
+        <div class="festival-image">
+          
+          <div class="festival-image-style">One</div>
+          <!-- <img src="" alt="festival-image" class="the-festival-image-style"/> -->
+
+        </div>
+      
+      </div>
+
+      <div class="festival-section-right">
+
+        <div>
+
+          <p class="festival-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nostrum vel veritatis architecto consectetur placeat perspiciatis reiciendis esse sunt, doloribus totam cupiditate voluptates aut natus maiores debitis magnam facilis iusto.</p>
+
+          <p class="festival-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nostrum vel veritatis architecto consectetur placeat perspiciatis reiciendis esse sunt, doloribus totam cupiditate voluptates aut natus maiores debitis magnam facilis iusto.</p>
+
+        </div>
+      
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Activities Section -->
+
+  <div class="activities-section">
+
+    <h1 class="activities-header">ACTIVITIES</h1>
+
+    <div class="grid-container">
+
+      <div class="activity-grid">
+
+        <img src="/images/flower.jpg" class="flower">
+        <p class="boxes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos ex, corrupti nulla aliquam blanditiis porro modi aperiam unde provident facere dolorum dolor. Corrupti rerum facere maiores unde. Cum, provident.</p>
+
+      </div>
+
+      <div class="activity-grid">
+
+        <img src="/images/flower.jpg" class="flower">
+        <p class="boxes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos ex, corrupti nulla aliquam blanditiis porro modi aperiam unde provident facere dolorum dolor. Corrupti rerum facere maiores unde. Cum, provident.</p>
+
+      </div>
+
+      <div class="activity-grid">
+
+        <img src="/images/flower.jpg" class="flower">
+        <p class="boxes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos ex, corrupti nulla aliquam blanditiis porro modi aperiam unde provident facere dolorum dolor. Corrupti rerum facere maiores unde. Cum, provident.</p>
+
+      </div>
+
+      <div class="activity-grid">
+
+        <img src="/images/flower.jpg" class="flower">
+        <p class="boxes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos ex, corrupti nulla aliquam blanditiis porro modi aperiam unde provident facere dolorum dolor. Corrupti rerum facere maiores unde. Cum, provident.</p>
+
+      </div>
+    
+    </div>
+  
+  </div>
+
+  <!-- Buy Tickets Section -->
+
+  <a href="https://www.eventbrite.com" class="buy-tickets-link">
+    
+    <div class="buy-tickets-section">
+      
+      <h1 class="buy-tickets-header">BUY TICKETS</h1>
+    
+    </div>
+  
+  </a>
+
+  <!-- Sponsors Section -->
+
+  <div class="sponsors-section">
+
+    <h1 class="sponsors-header">OUR SPONSORS</h1>
+
+    <div class="sponsors-grid">
+
+      <div class="sponsors-grid-style">
+
+        <span class="test-box">One</span>
+        <span class="test-box">Two</span>
+        <span class="test-box">Three</span>
+        <span class="test-box">Three</span>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Footer-->
+
+  <footer>
+
+    <div class="copyright">
+
+      <div class="copyright-description">
+        <p>Copyright &copy 2023 Kromanti Festival. All rights reserved.</p>
+      </div>
+
+      <!--Social-Media-->
+
+      <div class="a-social-b">
+
+        <a class="social-list" href="https://www.facebook.com/" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a class="social-list" href="https://www.instagram.com/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a class="social-list" href="https://www.twitter.com/" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a class="social-list" href="https://www.outlook.com" target="_blank"
+          ><i class="fas fa-envelope"></i
+        ></a>
+  
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Web Designer -->
+
+  
+
+  <a href="http://www.derrickogole.com" class="web-designer">Designed by Derrick Ogole</a>
+
+  
+
+  <script src="js/index.js"></script>
+  
+</body>
 </html>
+
