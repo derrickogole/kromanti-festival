@@ -1,0 +1,250 @@
+:root{
+  /* --ff-primary: ; */
+
+  --clr-one: #ff0000;
+  --clr-two: #efcd00;
+  --clr-three: #13a500;
+
+  --clr-text: #fff; 
+
+  --clr-background: #000;
+}
+
+body{
+  box-sizing: border;
+  margin: 0;
+  background-color: var(--clr-background);
+  color: var(--clr-text);
+}
+
+/* Navigation Bar */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 0 15px;
+}
+
+.nav-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 12px;
+}
+
+.nav-item:last-child{
+  padding-right: 0;
+}
+
+.nav-item a:hover{
+  color: var(--clr-text);
+}
+
+.nav-link{
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--clr-two);
+  font-weight: var(--fw-bold);
+  display: block;
+}
+
+.kromanti-name{
+  font-size: 20px;
+  color: var(--clr-two);
+}
+
+/* Logo Section */
+
+.kromanti-logo{
+  margin: 100px 0;
+  text-align: center;
+  font-size: 100px;
+}
+
+/* Main Section */
+
+.main-image{
+  padding: 300px 0;
+  text-align: center;
+  background-color: grey;
+  margin: 0;
+}
+
+/* Festival Section */
+
+.festival-section{
+  padding: 100px 0;
+  background-color: var(--clr-three);
+}
+
+.festival-header{
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.festival-section-left-right{
+  display: flex;
+  align-items: center;
+}
+
+.festival-section-left{
+  width: 50%;
+}
+
+.festival-section-right{
+  width: 50%;
+}
+
+.festival-image{
+  width: 450px;
+  height: 450px;
+  background-color: var(--clr-background);
+  border: grey;
+  border-style: solid;
+  border-width: 10px;
+  margin-left: 250px;
+}
+
+.festival-image-style{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+}
+
+.festival-description{
+  font-size: 30px;
+  max-width: 700px;
+}
+
+/* Activities Section */
+
+.activities-section{
+  padding: 100px 0;
+  background-color: var(--clr-one);
+}
+
+.activities-header{
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.flower{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxes{
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Buy Tickets Section */
+
+.buy-tickets-section{
+  padding: 100px 0;
+  background-color: var(--clr-two);
+}
+
+.buy-tickets-link{
+  text-decoration: none;
+}
+
+.buy-tickets-header{
+  color: var(--clr-three);
+  font-size: 150px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Sponsors Section */
+
+.sponsors-section{
+  padding: 100px 0;
+}
+
+.sponsors-header{
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.sponsors-grid{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sponsors-grid-style{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.test-box{
+  width: 250px;
+  height: 250px;
+  border: grey;
+  border-style: solid;
+  border-width: 10px;
+  background-color: var(--clr-background);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+  color: var(--clr-text);
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+.social-list{
+  color: var(--clr-text);
+  padding-right: 30px;
+  text-align: center;
+}
+
+.social-list:last-child{
+  padding-right: 0;
+}
+
+.a-social-b{
+  display: flex;
+  justify-content: center;
+}
+
+.web-designer{
+  display: flex;
+  justify-content: right;
+  color: #fff;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
